@@ -28,6 +28,7 @@
 
 ## Directory Structure
 
+```text
 .
 ├── src/
 │   ├── calculator.ts     # Core Calculator Class & Price Calculation Logic
@@ -39,6 +40,7 @@
 ├── package.json          # Dependencies & Scripts
 ├── tsconfig.json         # TypeScript Configuration
 └── README.md             # Documentation
+```
 
 ---
 
