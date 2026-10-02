@@ -1,4 +1,4 @@
-export const MENU_PRICE: Record < string, number> = {
+export const MENU_PRICES: Record < string, number> = {
    Red: 50,
    Green: 40,
    Blue: 30,

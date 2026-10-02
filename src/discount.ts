@@ -1,4 +1,4 @@
-import { DiscountRule,  OrderItems, MENU_PRICE } from './types';
+import { DiscountRule,  OrderItems, MENU_PRICES } from './types';
 
 export const bundleDiscountRule: DiscountRule = {
    name: 'bundle 5% discount',
@@ -8,7 +8,7 @@ export const bundleDiscountRule: DiscountRule = {
 
       for (const itemName in eligibleItems) {
          const quantity = items[itemName] ?? 0;
-         const price = MENU_PRICE[itemName];
+         const price = MENU_PRICES[itemName];
 
          if (quantity >= 2) {
             const pairs = Math.floor(quantity / 2);
